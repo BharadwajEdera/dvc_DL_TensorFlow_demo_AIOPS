@@ -13,5 +13,7 @@ boto3 ## < for AWS
 # ipywidgets
 # ensure==1.0.2
 # joblib
-# # local setup installation -
-# -e .
+
+
+# local setup installation -
+-e .

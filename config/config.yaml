@@ -12,8 +12,8 @@ artifacts:
   DATA_DIR: data
 
 source_download_dirs:
-  - ./data/raw/dog
-  - ./data/raw/cat
+  - ../outside_data/dog
+  - ../outside_data/cat
 
 local_data_dirs:
   - ./data/raw/dog

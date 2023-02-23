@@ -32,6 +32,11 @@ git init
 dvc init
 ```
 
+#### Install src requirements (setup.py file)
+```bash
+pip install -e .
+```
+
 Project Organization
 ------------
 
