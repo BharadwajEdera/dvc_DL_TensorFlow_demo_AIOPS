@@ -93,3 +93,4 @@ target/
 
 # ignore the secrets file
 ./config/secrets.yaml
+/data
