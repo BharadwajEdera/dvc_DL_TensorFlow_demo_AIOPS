@@ -43,6 +43,9 @@ def prepare_base_model(config_path, params_path):
     )
 
     def _log_model_summary(full_model):
+        '''
+        Function to Log the Model Summary in the running_logs.log File
+        '''
         with io.StringIO() as stream:
             full_model.summary(print_fn=lambda x: stream.write(f"{x}\n"))
             summary_str = stream.getvalue()
